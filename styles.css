@@ -418,9 +418,6 @@ a {
 .link-card:nth-child(6) {
 	animation-delay: 240ms;
 }
-.link-card:nth-child(7) {
-	animation-delay: 280ms;
-}
 
 .link-card:hover {
 	border-color: color-mix(in oklab, hsl(var(--primary)) 35%, hsl(var(--border)));
