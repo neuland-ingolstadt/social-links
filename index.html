@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, viewport-fit=cover"
+		/>
+		<title>Neuland Ingolstadt — Links</title>
+		<meta
+			name="description"
+			content="Offizielle Links von Neuland Ingolstadt e.V. — Website, Instagram, LinkedIn, GitHub und mehr."
+		/>
+		<meta name="theme-color" content="#020302" media="(prefers-color-scheme: dark)" />
+		<meta name="theme-color" content="#f5f8f5" media="(prefers-color-scheme: light)" />
+		<link rel="stylesheet" href="./styles.css" />
+		<script>
+			(function () {
+				try {
+					var stored = localStorage.getItem("neuland-theme");
+					if (stored === "light" || stored === "dark") {
+						document.documentElement.setAttribute("data-theme", stored);
+					}
+				} catch (e) {}
+
+				try {
+					var list =
+						navigator.languages && navigator.languages.length
+							? navigator.languages
+							: [navigator.language || "de"];
+					var locale = "de";
+					for (var i = 0; i < list.length; i++) {
+						var code = String(list[i] || "").toLowerCase();
+						if (code.indexOf("de") === 0) {
+							locale = "de";
+							break;
+						}
+						if (code.indexOf("en") === 0) {
+							locale = "en";
+							break;
+						}
+					}
+					document.documentElement.lang = locale;
+				} catch (e) {}
+			})();
+		</script>
+	</head>
+	<body>
+		<div class="page-shell">
+			<div class="page-bg" aria-hidden="true"></div>
+
+			<header class="site-header">
+				<div class="page-gutter site-header__inner">
+					<a
+						class="brand"
+						href="https://neuland-ingolstadt.de/de"
+						data-i18n-href="website.href"
+						rel="noopener noreferrer"
+					>
+						<svg
+							class="brand__palm"
+							viewBox="0 0 96 124"
+							role="img"
+							aria-label="Neuland Logo"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M77.7902 89.9915C83.1109 95.5877 86.3907 102.814 87.1003 110.503 78.4241 117.072 67.9515 120.84 57.0789 121.304 56.297 121.304 55.4969 121.304 54.6968 121.304 42.7982 121.325 31.2312 117.384 21.8205 110.103 20.6749 109.212 19.5657 108.284 18.4929 107.284 18.818 105.522 19.2863 103.788 19.893 102.102 22.0065 96.2394 25.6475 91.0478 30.4396 87.0639 31.6554 86.0552 32.9439 85.1375 34.2946 84.3181 35.6151 83.4742 37.0016 82.7385 38.4405 82.1179 40.3078 81.2569 42.2573 80.5868 44.2593 80.1177 44.2593 79.6813 44.2593 79.2449 44.2593 78.8085 44.0956 76.4264 43.8411 74.0625 43.4956 71.7532 43.1865 69.5893 42.8046 67.4618 42.3682 65.3707 42.2045 64.6433 42.0409 63.916 41.859 63.2068 40.9697 59.6535 39.8708 56.1562 38.5678 52.7329 37.7859 50.6236 36.9494 48.5689 36.0402 46.5505 35.8584 46.1322 35.6766 45.7504 35.4765 45.3321 35.0038 45.7322 34.531 46.1504 34.0764 46.5868 33.6218 47.0232 32.8399 47.8051 32.258 48.4052 26.0404 55.4043 23.3616 64.8606 24.9845 74.0807 25.0594 74.6191 25.1627 75.1532 25.2936 75.6809 24.9663 75.1899 24.639 74.6807 24.3481 74.1716 19.9569 66.6859 19.1368 57.6309 22.1115 49.478 10.1652 54.8612 2.49609 66.7601 2.52754 79.8631 2.52754 80.1359 2.52754 80.4086 2.52754 80.6814 1.4569 76.406 0.919426 72.0146 0.927372 67.6073 0.927372 66.4799 0.927372 65.3525 1.03647 64.2433 1.66989 54.2696 5.09098 44.6741 10.9103 36.5494 9.2966 36.3143 7.66773 36.1986 6.03701 36.2039 4.01383 36.201 1.99412 36.3714 0 36.713 4.50134 29.4164 12.4652 24.9767 21.0386 24.9845 21.3292 24.9663 21.6209 24.9663 21.9114 24.9845 22.2388 24.9845 22.2222 24.8883 22.2222 24.7898 22.2388 24.6936 22.457 23.8935 22.6933 23.0934 22.9661 22.3115 26.9245 11.0176 36.4456 2.57653 48.1324 0 45.4087 4.58351 43.7902 9.73841 43.4047 15.0562 47.1145 14.2508 50.9006 13.8485 54.6968 13.856 66.4622 13.8145 77.9138 17.6487 87.2821 24.7663 74.5509 18.1414 59.0092 20.4046 48.6961 30.3851 49.3508 30.3851 59.5924 30.3947 69.0747 35.7884 74.3171 44.5866 68.8843 40.3747 62.189 38.1194 55.315 38.1859 51.3992 38.187 47.5187 38.9273 43.8774 40.368 43.1501 40.6589 42.4409 40.968 41.7499 41.3135 43.0955 43.1077 44.3684 44.9625 45.5685 46.8778 45.8958 47.3505 46.205 47.8597 46.4959 48.3506 50.2863 54.5626 53.3375 61.196 55.5878 68.1164 56.8376 71.9057 57.8279 75.7756 58.5517 79.6995 61.5682 80.1933 64.5042 81.0923 67.28 82.3725 67.8982 82.6452 68.4801 82.9362 69.0983 83.2635 71.3426 84.4776 73.4464 85.9349 75.3717 87.6094 76.2213 88.358 77.0286 89.1534 77.7902 89.9915Z"
+								fill="currentColor"
+								transform="matrix(1 0 0 1.01353 0.0584866 0)"
+							/>
+							<path
+								d="M71.935 65.5525C73.9939 72.7454 81.494 76.9072 88.6868 74.8482 89.7731 74.5313 90.8047 74.092 91.7735 73.5352 93.3802 72.6202 94.7795 71.3818 95.883 69.8984 86.913 66.8839 81.4998 57.7588 83.1544 48.4416 82.54 48.5338 81.9324 48.6674 81.336 48.8416 78.5655 49.6262 76.1187 51.2764 74.3534 53.5512 73.8807 54.1695 73.461 54.8263 73.0988 55.5151 71.416 58.5808 70.9984 62.183 71.935 65.5525Z"
+								fill="currentColor"
+								opacity="0.5"
+								transform="matrix(1 0 0 1.01353 0.0584866 0)"
+							/>
+						</svg>
+						<div class="brand__text">
+							<span class="brand__name">Neuland</span>
+							<span class="brand__tag">Links</span>
+						</div>
+					</a>
+
+					<button
+						type="button"
+						class="icon-btn"
+						data-theme-toggle
+						data-theme-mode="system"
+						aria-label="System-Design"
+						title="System-Design"
+					>
+						<svg data-theme-icon="system" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+							<rect width="18" height="12" x="3" y="4" rx="2" />
+							<path d="M2 20h20" />
+						</svg>
+						<svg data-theme-icon="light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+							<circle cx="12" cy="12" r="4" />
+							<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+						</svg>
+						<svg data-theme-icon="dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+							<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+						</svg>
+					</button>
+				</div>
+			</header>
+
+			<main class="page-gutter main">
+				<section class="profile">
+					<svg
+						class="profile__palm"
+						viewBox="0 0 96 124"
+						role="img"
+						aria-label="Neuland Logo"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M77.7902 89.9915C83.1109 95.5877 86.3907 102.814 87.1003 110.503 78.4241 117.072 67.9515 120.84 57.0789 121.304 56.297 121.304 55.4969 121.304 54.6968 121.304 42.7982 121.325 31.2312 117.384 21.8205 110.103 20.6749 109.212 19.5657 108.284 18.4929 107.284 18.818 105.522 19.2863 103.788 19.893 102.102 22.0065 96.2394 25.6475 91.0478 30.4396 87.0639 31.6554 86.0552 32.9439 85.1375 34.2946 84.3181 35.6151 83.4742 37.0016 82.7385 38.4405 82.1179 40.3078 81.2569 42.2573 80.5868 44.2593 80.1177 44.2593 79.6813 44.2593 79.2449 44.2593 78.8085 44.0956 76.4264 43.8411 74.0625 43.4956 71.7532 43.1865 69.5893 42.8046 67.4618 42.3682 65.3707 42.2045 64.6433 42.0409 63.916 41.859 63.2068 40.9697 59.6535 39.8708 56.1562 38.5678 52.7329 37.7859 50.6236 36.9494 48.5689 36.0402 46.5505 35.8584 46.1322 35.6766 45.7504 35.4765 45.3321 35.0038 45.7322 34.531 46.1504 34.0764 46.5868 33.6218 47.0232 32.8399 47.8051 32.258 48.4052 26.0404 55.4043 23.3616 64.8606 24.9845 74.0807 25.0594 74.6191 25.1627 75.1532 25.2936 75.6809 24.9663 75.1899 24.639 74.6807 24.3481 74.1716 19.9569 66.6859 19.1368 57.6309 22.1115 49.478 10.1652 54.8612 2.49609 66.7601 2.52754 79.8631 2.52754 80.1359 2.52754 80.4086 2.52754 80.6814 1.4569 76.406 0.919426 72.0146 0.927372 67.6073 0.927372 66.4799 0.927372 65.3525 1.03647 64.2433 1.66989 54.2696 5.09098 44.6741 10.9103 36.5494 9.2966 36.3143 7.66773 36.1986 6.03701 36.2039 4.01383 36.201 1.99412 36.3714 0 36.713 4.50134 29.4164 12.4652 24.9767 21.0386 24.9845 21.3292 24.9663 21.6209 24.9663 21.9114 24.9845 22.2388 24.9845 22.2222 24.8883 22.2222 24.7898 22.2388 24.6936 22.457 23.8935 22.6933 23.0934 22.9661 22.3115 26.9245 11.0176 36.4456 2.57653 48.1324 0 45.4087 4.58351 43.7902 9.73841 43.4047 15.0562 47.1145 14.2508 50.9006 13.8485 54.6968 13.856 66.4622 13.8145 77.9138 17.6487 87.2821 24.7663 74.5509 18.1414 59.0092 20.4046 48.6961 30.3851 49.3508 30.3851 59.5924 30.3947 69.0747 35.7884 74.3171 44.5866 68.8843 40.3747 62.189 38.1194 55.315 38.1859 51.3992 38.187 47.5187 38.9273 43.8774 40.368 43.1501 40.6589 42.4409 40.968 41.7499 41.3135 43.0955 43.1077 44.3684 44.9625 45.5685 46.8778 45.8958 47.3505 46.205 47.8597 46.4959 48.3506 50.2863 54.5626 53.3375 61.196 55.5878 68.1164 56.8376 71.9057 57.8279 75.7756 58.5517 79.6995 61.5682 80.1933 64.5042 81.0923 67.28 82.3725 67.8982 82.6452 68.4801 82.9362 69.0983 83.2635 71.3426 84.4776 73.4464 85.9349 75.3717 87.6094 76.2213 88.358 77.0286 89.1534 77.7902 89.9915Z"
+							fill="currentColor"
+							transform="matrix(1 0 0 1.01353 0.0584866 0)"
+						/>
+						<path
+							d="M71.935 65.5525C73.9939 72.7454 81.494 76.9072 88.6868 74.8482 89.7731 74.5313 90.8047 74.092 91.7735 73.5352 93.3802 72.6202 94.7795 71.3818 95.883 69.8984 86.913 66.8839 81.4998 57.7588 83.1544 48.4416 82.54 48.5338 81.9324 48.6674 81.336 48.8416 78.5655 49.6262 76.1187 51.2764 74.3534 53.5512 73.8807 54.1695 73.461 54.8263 73.0988 55.5151 71.416 58.5808 70.9984 62.183 71.935 65.5525Z"
+							fill="currentColor"
+							opacity="0.5"
+							transform="matrix(1 0 0 1.01353 0.0584866 0)"
+						/>
+					</svg>
+					<p class="eyebrow">Neuland Ingolstadt e.V.</p>
+					<h1 class="profile__title" data-i18n="profile.title">Alle Links</h1>
+				</section>
+
+				<ul class="links">
+					<li>
+						<a
+							class="link-card"
+							href="https://neuland-ingolstadt.de/de"
+							data-i18n-href="website.href"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<span class="link-card__icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<circle cx="12" cy="12" r="10" />
+									<path d="M2 12h20" />
+									<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+								</svg>
+							</span>
+							<span class="link-card__body">
+								<span class="link-card__label">Website</span>
+								<span class="link-card__hint">neuland-ingolstadt.de</span>
+							</span>
+							<svg class="link-card__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+								<path d="m9 18 6-6-6-6" />
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a
+							class="link-card"
+							href="https://join.neuland-ingolstadt.de/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<span class="link-card__icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+									<circle cx="9" cy="7" r="4" />
+									<path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+									<path d="M16 3.13a4 4 0 0 1 0 7.75" />
+								</svg>
+							</span>
+							<span class="link-card__body">
+								<span class="link-card__label" data-i18n="link.join">Mitglied werden</span>
+								<span class="link-card__hint">join.neuland-ingolstadt.de</span>
+							</span>
+							<svg class="link-card__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+								<path d="m9 18 6-6-6-6" />
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a
+							class="link-card"
+							href="https://www.instagram.com/neuland_ingolstadt/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<span class="link-card__icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<rect width="20" height="20" x="2" y="2" rx="5" />
+									<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+									<line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+								</svg>
+							</span>
+							<span class="link-card__body">
+								<span class="link-card__label">Instagram</span>
+								<span class="link-card__hint">@neuland_ingolstadt</span>
+							</span>
+							<svg class="link-card__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+								<path d="m9 18 6-6-6-6" />
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a
+							class="link-card"
+							href="https://www.linkedin.com/company/neuland-ingolstadt"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<span class="link-card__icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
+									<rect width="4" height="12" x="2" y="9" />
+									<circle cx="4" cy="4" r="2" />
+								</svg>
+							</span>
+							<span class="link-card__body">
+								<span class="link-card__label">LinkedIn</span>
+								<span class="link-card__hint">Neuland Ingolstadt</span>
+							</span>
+							<svg class="link-card__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+								<path d="m9 18 6-6-6-6" />
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a
+							class="link-card"
+							href="https://github.com/neuland-ingolstadt"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<span class="link-card__icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+									<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+								</svg>
+							</span>
+							<span class="link-card__body">
+								<span class="link-card__label">GitHub</span>
+								<span class="link-card__hint">github.com/neuland-ingolstadt</span>
+							</span>
+							<svg class="link-card__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+								<path d="m9 18 6-6-6-6" />
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a
+							class="link-card"
+							href="https://social.tchncs.de/@neuland"
+							target="_blank"
+							rel="noopener noreferrer me"
+						>
+							<span class="link-card__icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+									<path d="M21.327 8.566c0-4.339-2.843-5.61-2.843-5.61 1.433-1.116 1.954-2.99 1.954-2.99C19.76-.548 15.435.024 15.435.024l-.05.028C14.38.01 13.4 0 12.005 0h-.017C10.59 0 9.61.01 8.558.052l-.05-.028S4.176-.548 3.496.0c0 0 .52 1.874 1.953 2.99 0 0-2.842 1.272-2.842 5.61 0 0-.354 6.444.698 11.42 0 0 .823 2.816 5.15 3.108 0 0 1.962.39 3.59-.05V19.35c-2.568.64-3.844-.66-4.074-1.056-.366-.64-.296-1.04-.296-1.04l.013-.009c.016.01.04.02.06.03.7.37 1.39.55 2.05.63.95.12 1.97.09 2.94-.04.49-.06 1-.17 1.51-.33.02-.006.04-.013.06-.02v3.23c1.63.44 3.59.05 3.59.05 4.327-.292 5.15-3.108 5.15-3.108 1.052-4.976.698-11.42.698-11.42ZM16.95 16.07h-1.68V9.62c0-1.4-.59-2.11-1.77-2.11-1.3 0-1.96.85-1.96 2.51v3.64h-1.67V9.99c0-1.66-.66-2.51-1.96-2.51-1.18 0-1.77.71-1.77 2.11v6.45H4.76V9.35c0-1.4.36-2.51 1.07-3.34.74-.83 1.7-1.25 2.89-1.25 1.39 0 2.43.53 3.11 1.6l.67 1.12.67-1.12c.68-1.07 1.72-1.6 3.11-1.6 1.19 0 2.15.42 2.89 1.25.71.83 1.07 1.94 1.07 3.34v6.72Z" />
+								</svg>
+							</span>
+							<span class="link-card__body">
+								<span class="link-card__label">Mastodon</span>
+								<span class="link-card__hint">@neuland@social.tchncs.de</span>
+							</span>
+							<svg class="link-card__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+								<path d="m9 18 6-6-6-6" />
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a
+							class="link-card"
+							href="mailto:info@neuland-ingolstadt.de"
+						>
+							<span class="link-card__icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<rect width="20" height="16" x="2" y="4" rx="2" />
+									<path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+								</svg>
+							</span>
+							<span class="link-card__body">
+								<span class="link-card__label" data-i18n="link.email">E-Mail</span>
+								<span class="link-card__hint">info@neuland-ingolstadt.de</span>
+							</span>
+							<svg class="link-card__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+								<path d="m9 18 6-6-6-6" />
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</main>
+
+			<footer class="page-gutter site-footer">
+				<nav data-i18n-aria="footer.nav" aria-label="Rechtliches">
+					<a
+						href="https://neuland-ingolstadt.de/legal/impressum"
+						target="_blank"
+						rel="noopener noreferrer"
+						data-i18n="footer.imprint"
+					>
+						Impressum
+					</a>
+					<span class="site-footer__sep" aria-hidden="true">|</span>
+					<a
+						href="https://neuland-ingolstadt.de/legal/datenschutz"
+						target="_blank"
+						rel="noopener noreferrer"
+						data-i18n="footer.privacy"
+					>
+						Datenschutz
+					</a>
+					<span class="site-footer__sep" aria-hidden="true">|</span>
+					<a
+						href="https://neuland-ingolstadt.de"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						neuland-ingolstadt.de
+					</a>
+				</nav>
+				<p class="site-footer__copy">
+					Copyright © 2026<br />
+					Neuland Ingolstadt e.V.
+				</p>
+			</footer>
+		</div>
+
+		<script src="./i18n.js"></script>
+		<script src="./theme.js"></script>
+	</body>
+</html>
