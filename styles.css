@@ -419,6 +419,33 @@ a {
 	animation-delay: 240ms;
 }
 
+.link-card:nth-child(7) {
+	animation-delay: 280ms;
+}
+
+.link-card--featured {
+	border-color: hsl(var(--primary));
+	background: color-mix(in oklab, hsl(var(--primary)) 12%, hsl(var(--card)));
+	box-shadow:
+		0 0 0 1px color-mix(in oklab, hsl(var(--primary)) 40%, transparent),
+		0 12px 36px -20px color-mix(in oklab, hsl(var(--primary)) 60%, transparent);
+}
+
+.link-card--featured .link-card__icon {
+	border-color: hsl(var(--primary));
+	background: hsl(var(--primary));
+	color: hsl(var(--primary-foreground));
+}
+
+.link-card--featured .link-card__hint {
+	color: hsl(var(--primary));
+	font-weight: 500;
+}
+
+.link-card--featured .link-card__chevron {
+	color: hsl(var(--primary));
+}
+
 .link-card:hover {
 	border-color: color-mix(in oklab, hsl(var(--primary)) 35%, hsl(var(--border)));
 	transform: translateY(-1px);

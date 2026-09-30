@@ -5,7 +5,8 @@
 			"meta.description":
 				"Offizielle Links von Neuland Ingolstadt e.V. — Website, Instagram, LinkedIn, GitHub und mehr.",
 			"profile.title": "Alle Links",
-			"link.join": "Mitglied werden",
+			"link.discord.hint": "Hier kannst du bei uns einsteigen",
+			"link.join": "Beitrittsformular",
 			"link.email": "E-Mail",
 			"footer.nav": "Rechtliches",
 			"footer.imprint": "Impressum",
@@ -20,7 +21,8 @@
 			"meta.description":
 				"Official links from Neuland Ingolstadt e.V. — website, Instagram, LinkedIn, GitHub, and more.",
 			"profile.title": "All Links",
-			"link.join": "Become a member",
+			"link.discord.hint": "Join us here to get started",
+			"link.join": "Membership form",
 			"link.email": "Email",
 			"footer.nav": "Legal",
 			"footer.imprint": "Legal notice",
