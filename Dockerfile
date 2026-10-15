@@ -1,4 +1,4 @@
-FROM nginx:1.31.6-alpine3.24
+FROM nginx:1.31.7-alpine3.24
 
 ARG ASSET_VERSION=dev
 
